@@ -571,7 +571,7 @@ body {
           padding:45px 0 20px;
           font-size:15px;
           line-height:24px;
-          color:#737373;
+          color:white;
         }
         .site-footer hr
         {
@@ -592,7 +592,7 @@ body {
         }
         .site-footer a
         {
-          color:#737373;
+          color:lightskyblue;;
         }
         .site-footer a:hover
         {
