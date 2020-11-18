@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-
-
-
-
-
 *{
     box-sizing: border-box;
     font-family: Roboto, Arial, Helvetica, sans-serif;
@@ -358,16 +353,6 @@ body {
         --overlay-color: rgba(0, 0, 0, 0.7)
     }
     
-    * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-    
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-        line-height: 1.2;
-    }
     
     h1,
     h2,
@@ -578,7 +563,7 @@ body {
 }
 .site-footer hr.small
 {
-  margin:20px 0
+  margin:0;
 }
 .site-footer h6
 {
@@ -752,10 +737,7 @@ body {
 
 
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.2;
-}
+
 
 h1,
 h2,
