@@ -5,92 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Booth</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.scss">
     <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-16x16.png">
+    <link href="fontawesome-free-5.15.1-web/css/all.css" rel="stylesheet">
   </head>
-</html>
-  <body>
+<body>
+<header>
+  <img class="logo" src="Images/booth28.png">
+  <ul>
+    <li><a href="opening.html">Opening times</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    <li><a href="images.html">Portfolio</a></li>
+    <li><a href="storeloader.html">Store</a></li>
 
-    <section>
-      <header>
-        <h2><a href="#" class="logo">Logo Will Go Here</a></h2>
-        <div class="navigation">
-          <a href="contact.html">Contact Us</a>
-          <a href="images.html">Portfolio</a>
-          <a href="opening.html">Opening Times</a>
-        </div>
-      </header>
-      <div class="content">
-        <div class="info">
-          <h2>The booth<br><span>"Number 1 Barber In Crawley"</span></h2>
-          <p>Enter Short about the business here</p>
-          <a href="https://thebooth.setmore.com/" class="info-btn">Book Here</a>
-        </div>
-      </div>
-      <div class="media-icons">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-      </div>
-    </section>
-    
+  </ul>
+</header>
+ <!-- <section class="banner">
+</section> -->
 
-  </body>
-  <footer class="site-footer">
+<script type="text/javascript">
+window.addEventListener("scroll", function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+})
+</script>
+<div class="content">
+  <main>
+<article class="mainContent">
+  <div class="jumbotron large mainContent">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-6">
-          <h6>About</h6>
-          <p class="text-justify">This Website Was designed By Raheem Shah, If you want to contact him here are all of his links</p>
-        </div>
-
-        <div class="col-xs-6 col-md-3">
-          <h6>Categories</h6>
-          <ul class="footer-links">
-            <li><a href="https://github.com/Raheemshah2809">GitHub</a></li>
-            <li><a href=mailto:Raheemshah2809@gmail.com>Email</a></li>
-            <li><a href="https://www.linkedin.com/in/raheem-shah-776ab1166/">linkedin</a></li>
-            <li><a href="https://www.instagram.com/raheemshah2809/?hl=en">Instagram</a></li>
-            <li><a href="https://raheemshahdev.engineer/index.html">My Website</a></li>
-          </ul>
-        </div>
-        <div class="menu-wrap">
-          <input type="checkbox" class="toggler">
-          <div class="hamburger">
-              <div></div>
-          </div>
-          <div class="menu">
-              <div>
-                  <div>
-                      <ul>
-                          <li><a href="index.html">Home</a></li>
-                          <li><a href="contact.html">Contact Us</a></li>
-                          <li><a href="opening.html">Opening Times</a></li>
-                          <li><a href="images.html">Portfolio</a></li>
-                      </ul>
-                  </div>
-              </div>
-          </div>
-      </div>
-        <div class="col-xs-6 col-md-3">
-          <h6>Quick Links</h6>
-          <ul class="footer-links">
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="opening.html">Opening Times</a></li>
-            <li><a href="images.html">Portfolio</a></li>
-          </ul>
-        </div>
-      </div>
-      <hr>
+        <h1 class="uppercase title"><span class="bluetext">The Booth</span> "Number 1 Barber In Crawley"</h1>
+        <p class="subtitle">Write something here</p>
+        <a class="button primary uppercase" href="loader.html">Book Here</a>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-sm-6 col-xs-12">
-          <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
-          <a href="https://github.com/Raheemshah2809">Raheem Shah</a>.
-          <p class="copyright-text"> Version Number 1.1-18.11.20
-          </p>
-        </div>
+  </div>
+</article>
 </div>
-</div>
-</footer>
 
+  </main>
+  <footer>
+  <nav class="footer-inner">
+    <section class="footer-item"><h2>This Website was created by <br>Raheem Shah and was helped by Jordan O'Hara<br>
+      <a href="https://raheemshahdev.engineer/" target="_blank">Contact Raheem</a><br>
+       <a href="https://raheemshahdev.engineer/" target="_blank">Contact Jordan</a></h2>
+  </section>
+    <section class="footer-item">
+      <h3>Explore</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+            <li><a href="opening.html">Opening times</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="images.html">Portfolio</a></li>
+            <li><a href="loader.html">Store</a></li>
+        </ul>
+    </section>
+    <section class="footer-item">
+      <h3>Visit</h3>
+        <a href="https://goo.gl/maps/bkUQVagracSkTiYr8">
+        <p>9, Grand Parade,</p>
+        <p>Crawley</p>
+        <p>RH10 1BU</p>
+        </a>
+    </section>
+
+    <section class="footer-item">
+      <h3>Follow</h3>
+        <ul>
+          <li><a href="https://www.instagram.com/raheemshah2809"target="_blank">Instagram</a></li>
+            <li><a href="https://github.com/Raheemshah2809"target="_blank">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/raheem-shah-776ab1166/"target="_blank">LinkedIn</a></li>
+        </ul>
+    </section>
+
+    <section class="footer-item">
+       <h3>Version Number</h3>
+        <ul>
+          <li><a href="#">1.2</a></li>
+          <li><a href="#">23.11.2020</a></li>
+        </ul>
+    </section>
+
+
+    <section class="footer-item">
+       <a href="opening.html" class="footer-button">Next: Opening times</a>
+    </section>
+  </nav>
+</footer>
+</body>
+</html>

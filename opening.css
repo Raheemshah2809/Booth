@@ -12,9 +12,21 @@
 
 
 body {
-    background-image: url(Images/B-wallpaper.jpg)
-    
+    background-image: url(Images/wallpaper.jpg)
+    position: relative;
+    width: 100%;
+    background: url(Images/wallpaper.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Images/wallpaper.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Images/wallpaper.jpg', sizingMethod='scale')";
+    background-color: rgba(31, 32, 27, 0.7);
+    background-blend-mode: multiply; */
   }
+    
+  
 
 
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
