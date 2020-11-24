@@ -74,11 +74,11 @@ color: grey;
 }
 
 header ul {
-  position: relative;
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-
+  right: 1px;
 }
 
 header ul li{
