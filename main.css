@@ -79,6 +79,7 @@ header ul {
   justify-content: center;
   align-items: center;
   right: 1px;
+  left: 5px;
 }
 
 header ul li{
