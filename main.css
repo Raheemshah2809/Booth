@@ -79,12 +79,10 @@ header ul {
   justify-content: center;
   align-items: center;
   right: 1px;
-  left: 5px;
 }
 
 header ul li{
-  posit
-ion: relative;
+  position: relative;
   list-style: none;
 
 }
