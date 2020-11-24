@@ -64,10 +64,7 @@ header .logo {
   width: 60%;
   left: 75px;
 }
-header.sticky{
-  padding: 5px 100px;
-  color: #fff;
-}
+
 header.sticky .logo,
 header.sticky ul li a{
 color: grey;
@@ -367,7 +364,8 @@ footer {
 .jumbotron.mainContent {
   position: relative;
   width: 100%;
-  background: url(Images/wallpaper1.jpg) no-repeat center ;
+  background: url(Images/wallpaper1.jpg) center;
+  background-position: top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
