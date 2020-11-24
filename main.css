@@ -206,7 +206,7 @@ li {
 
 p {
   font-weight: 300;
-  font-size: 13px;
+  font-size: 17px;
   padding: 0;
   line-height: 1.8;
   letter-spacing: 0.03em;
@@ -424,7 +424,7 @@ a.button.primary:hover {
       height: 100vh;
     }
     .jumbotron .title {
-      font-size: 3em;
+      font-size: 2em;
     }
 
   }
