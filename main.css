@@ -212,6 +212,15 @@ p {
   letter-spacing: 0.03em;
 }
 
+.p1{
+  font-weight: 300;
+  font-size: 13px;
+  padding: 0;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: white;
+}
+
 a {
   text-decoration: none;
   color: #d1d1d1;
