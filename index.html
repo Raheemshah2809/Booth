@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Booth</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="main.scss">
     <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-16x16.png">
@@ -43,69 +45,44 @@ window.addEventListener("scroll", function(){
 </article>
 </div>
 
-div class="wrapper">
-    <div class="box">
-      <i class="fas fa-quote-left quote"></i>
-      <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p>
-      <div class="content">
-        <div class="info">
-          <div class="name">Alex Smith</div>
-          <div class="job">Designer | Developer</div>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-          </div>
+<section class="testimonial text-center">
+        <div class="container">
+
+            <div class="heading white-heading">
+                Reviews From Clients
+            </div>
+            <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+             
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="testimonial4_slide">
+                            <p>I have been getting my haircut at the booth for around 4 years now. After a number of bad experiences, swapping from barber to barber regularly, I finally found someone that is consistent, reliable and extremely talented. Not only do they take pride in their work but The Booth are always providing great customer service and for these reasons, I’ve never looked elsewhere.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                            <p>Before going to the booth I was constantly unhappy with the haircuts I was getting from random barbers. When I went to the booth, everything changed! I know feel fresh and confident every time I get a haircut! Couldn’t wish for a better service </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                            <p>Had my haircut from every barber at TheBooth and never been disappointed. Great vibe, friendly barbers each with their own unique style. I’ve personally travelled over 200 miles for a haircut from here, would highly recommend to anyone!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="testimonial4_slide">
+                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                      </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#testimonial4" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
         </div>
-        <div class="image">
-          <!-- <img src="images/profile-1.jpeg" alt=""> -->
-        </div>
-      </div>
-    </div>
-    <div class="box">
-      <i class="fas fa-quote-left quote"></i>
-      <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p>
-      <div class="content">
-        <div class="info">
-          <div class="name">Steven Chris</div>
-          <div class="job">YouTuber | Blogger</div>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-          </div>
-        </div>
-        <div class="image">
-          <!-- <img src="images/profile-2.jpeg" alt=""> -->
-        </div>
-      </div>
-    </div>
-    <div class="box">
-      <i class="fas fa-quote-left  quote"></i>
-      <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p>
-      <div class="content">
-        <div class="info">
-          <div class="name">Kristina Bellis</div>
-          <div class="job">Freelancer | Advertiser</div>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-          </div>
-        </div>
-        <div class="image">
-          <!-- <img src="images/profile-3.jpeg" alt=""> -->
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 </main>
   <footer>
   <nav class="footer-inner">
@@ -157,5 +134,8 @@ div class="wrapper">
     </section>
   </nav>
 </footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
