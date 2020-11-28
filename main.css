@@ -61,7 +61,7 @@ header .logo {
   text-transform: uppercase;
   letter-spacing: 2px;
   transition: 0.6s;
-  width: 65%;
+  width: 80%;
   left: 59px;
 }
 
@@ -352,7 +352,7 @@ footer {
   }
 
   .jumbotron .title {
-    font-size: 2em;
+    font-size: 20px;
   }
 
   .jumbotron .container {
@@ -387,7 +387,7 @@ footer {
 
   .jumbotron.large {
     height: auto;
-    padding-top:200px;
+    padding-top:235px;
     padding-bottom: 200px;
   }
 
