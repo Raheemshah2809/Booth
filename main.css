@@ -400,7 +400,7 @@ footer {
     display:inline-block;
   }
 
-  a.button.primary { background-color: rgb(1, 110, 165) }
+  a.button.primary { background-color: rgb(7 75 109);}
 
   a.button.primary:hover {
     background-color:#1E586A;
