@@ -564,7 +564,8 @@ footer {
     display:inline-block;
   }
 
-  a.button.primary { background-color: white;}
+  a.button.primary { background-color: white;
+    font-weight: 900;}
 
   a.button.primary:hover {
     background-color:black;
