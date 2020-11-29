@@ -235,6 +235,8 @@ header ul li a {
     justify-content: center;
     align-items: center;
     left: 95px;
+    top: 12px;
+}
   }
   
   header ul li{
