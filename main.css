@@ -217,8 +217,10 @@ header ul li a {
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: 0.6s;
-    width: 100%;
-    left: 13px;
+    width: 114%;
+    left: -9px;
+    bottom: 10px;
+}
   }
   
   header.sticky .logo,
@@ -249,7 +251,6 @@ header ul li a {
     right: 104px;
   }
   
-}
 
 .banner{
   position: relative;
