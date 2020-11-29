@@ -560,14 +560,15 @@ footer {
     margin-top:10px;
     margin-bottom: 10px;
     border-radius:5px;
-    color: #fff;
+    color: black;
     display:inline-block;
   }
 
-  a.button.primary { background-color: rgb(0,0,0);}
+  a.button.primary { background-color: white;}
 
   a.button.primary:hover {
-    background-color:#1E586A;
+    background-color:black;
+    color:white;
   }
 
   ::selection{
