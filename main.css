@@ -21,25 +21,14 @@ body {
   color: white;
 }
 
-@media only screen and (min-width: 100px) {
+@media only screen and (max-width: 600px) {
 	header, header ul{
     position: relative;
     justify-content: center;
     align-items: center;
 		display: column;
-	}
-}
-
-@media only screen and (min-width: 768px) {
-	header, header ul{
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-		display: column;
-	}
-}
-header
+  }
+  header
 {
   position: fixed;
   top: 0;
@@ -62,7 +51,7 @@ header .logo {
   letter-spacing: 2px;
   transition: 0.6s;
   width: 80%;
-  left: 46px;
+  left: 59px;
 }
 
 header.sticky .logo,
@@ -88,6 +77,178 @@ header ul li a {
   text-decoration: none;
   color: #fff;
   transition: 0.6s;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+  header
+  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 37px 1px;
+    z-index: 10000;
+  }
+  
+  header .logo {
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+    width: 80%;
+    left: 59px;
+  }
+  
+  header.sticky .logo,
+  header.sticky ul li a{
+    
+  color: grey;
+  }
+  
+  header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header ul li{
+    position: relative;
+    list-style: none;
+  
+  }
+  header ul li a {
+    position: relative;
+    margin: 0px 10px 15px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.6s;
+    right: 46px;
+  }
+  
+}
+@media only screen and (min-width: 1200px) {
+  header
+  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 37px 1px;
+    z-index: 10000;
+  }
+  
+  header .logo {
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+    width: 70%;
+    left: 319px;
+    bottom: 65px;
+  }
+  
+  header.sticky .logo,
+  header.sticky ul li a{
+    
+  color: grey;
+  }
+  
+  header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header ul li{
+    position: relative;
+    list-style: none;
+  
+  }
+  header ul li a {
+    position: relative;
+    margin: 0px 10px 15px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.6s;
+    right: 24px;
+    bottom: 100px;
+    font-size: 16px;
+  }
+  
+}
+
+@media only screen and (max-width: 768px) {
+  header
+  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 37px 1px;
+    z-index: 10000;
+  }
+  
+  header .logo {
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+    width: 100%;
+    left: 13px;
+  }
+  
+  header.sticky .logo,
+  header.sticky ul li a{
+    
+  color: grey;
+  }
+  
+  header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 95px;
+  }
+  
+  header ul li{
+    position: relative;
+    list-style: none;
+  
+  }
+  header ul li a {
+    position: relative;
+    margin: 10px 0px 10px 15px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.6s;
+    right: 104px;
+  }
+  
 }
 
 .banner{
