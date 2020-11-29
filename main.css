@@ -568,7 +568,7 @@ footer {
     font-weight: 900;}
 
   a.button.primary:hover {
-    background-color:black;
+    background-color: rgb(169,169,169);
     color:white;
   }
 
