@@ -160,7 +160,7 @@ header ul li a {
     transition: 0.6s;
     width: 70%;
     left: 319px;
-    bottom: 58px;
+    bottom: 43px;
   }
   
   header.sticky .logo,
@@ -188,7 +188,7 @@ header ul li a {
     color: #fff;
     transition: 0.6s;
     right: 24px;
-    bottom: 100px;
+    bottom: 70px;
     font-size: 16px;
   }
   
@@ -551,7 +551,7 @@ footer {
 
   .jumbotron.large {
     height: auto;
-    padding-top:235px;
+    padding-top:275px;
     padding-bottom: 200px;
   }
 
