@@ -86,7 +86,8 @@ body{
 
 @media screen and (max-width:800px) {
   .contact-info{
-    flex-direction: column;
+    display: inline-block;
+  position: relative;
   }
   .card{
     width: 100%;
@@ -302,3 +303,4 @@ a:link {
 .link{
   color: white;
 }
+
