@@ -13,7 +13,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(Images/wallpaper.jpg)
+  background-image: url(Images/wallpaper.jpg);
     position: relative;
     width: 100%;
     background: url(Images/wallpaper.jpg) no-repeat center center fixed;
@@ -42,7 +42,7 @@ body{
   padding: 0 20px;
   margin: 0 10px;
   width: calc(33% - 20px);
-  height: 200px;
+  height: 190px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -91,8 +91,8 @@ body{
   }
   .card{
     width: 100%;
-    max-width: 300px;
     margin: 10px 0;
+    bottom: 10px;
   }
 }
 :root {
@@ -304,3 +304,14 @@ a:link {
   color: white;
 }
 
+
+.header1{
+  color: white ;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width:100%;
+  top: 10px;
+  font-size: 38px;
+}
