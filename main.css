@@ -537,7 +537,6 @@ footer {
   .jumbotron.mainContent {
     position: relative;
     width: 100%;
-    background: url(Images/videofornabz.mp4) center;
     background-position: top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -547,17 +546,17 @@ footer {
     -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Images/wallpaper.jpg', sizingMethod='scale')";
     background-color: rgba(31, 32, 27, 0.65);
     background-blend-mode: multiply;
+    
   }
 
   video {
     object-fit: cover;
     width: 100vw;
     height: 100vh;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(31, 32, 27, 0.65);
-    background-blend-mode: multiply;
+   
   }
 
   .jumbotron.large {
