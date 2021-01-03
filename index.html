@@ -32,14 +32,31 @@ window.addEventListener("scroll", function(){
 <div class="content">
   <video autoplay controls="true"loop  playsinline>
     <source src="Images/videofornabz.mp4" type="video/mp4" >
-        <p>If you are reading this, it is because your browser does not support the audio element.     </p>
-
-
+        <p>If you are reading this, it is because your browser does not support the audio element.   </p>
         <iframe src="silence1.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
         <audio id="player" autoplay loop>
           <source src="Images/videofornabz.mp3" type="audio/mp3">
       </audio>
   </video>
+  <script>Object.defineProperty(Images/videofornabz.mp4.prototype, 'playing', {
+    get: function () {
+        return !!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2);
+    }
+});
+
+$('body').on('click touchstart', function () {
+            const videoElement = document.getElementById('Images/videofornabz.mp4');
+            if (videoElement.playing) {
+                // video is already playing so do nothing
+            }
+            else {
+                // video is not playing
+                // so play video now
+                videoElement.play();
+            }
+    });
+
+</script>
   <main>
 <article class="mainContent">
   <div class="jumbotron large mainContent">
