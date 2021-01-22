@@ -1261,10 +1261,13 @@ body {
         
       }
     video {
-      object-fit: cover;
-      width: 100vw;
-      height: 100vh;
-      
-      top: 0;
-      left: 0;
+    overflow: hidden;
+  height: fit-content;
+  margin: 3px;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  float: none;
+  border-radius: 5px;
+  background-color: black;
     }
