@@ -1,4 +1,9 @@
 # The Booth
+![GitHub commit checks state](https://img.shields.io/github/checks-status/Raheemshah2809/booth/711ecc21465c09d0aa07f824ae1941c3c9d5dd12)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Raheemshah2809/booth)
+![GitHub last commit](https://img.shields.io/github/last-commit/Raheemshah2809/booth)
+![GitHub Release Date](https://img.shields.io/github/release-date/Raheemshah2809/Booth)
+
  Client Website 
 
 
