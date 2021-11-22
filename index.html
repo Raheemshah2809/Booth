@@ -1,229 +1,541 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Booth</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <link rel="stylesheet" href="main.css">
-  <link rel="stylesheet" href="main.scss">
-  <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-16x16.png">
-  <link href="fontawesome-free-5.15.1-web/css/all.css" rel="stylesheet">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LN9Q3PNKT8"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-    gtag('config', 'G-LN9Q3PNKT8');
-  </script>
-</head>
+        <title>The Booth | Home</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-16x16.png">
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    The Booth
+                </a>
 
-<body>
-  <header>
-    <img class="logo" src="Images/booth28.png">
-    <ul>
-      <li><a href="opening.html">Opening times</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="store.html">Store</a></li>
-      <li><a href="about.html">About Us</a></li>
-      <li><a href="contact.html">Contact Us</a></li>
-    </ul>
-  </header>
-  <script type="text/javascript">
-    window.addEventListener("scroll", function () {
-      var header = document.querySelector("header");
-      header.classList.toggle("sticky", window.scrollY > 0);
-    })
-  </script>
-  <div class="content">
-    <main>
-      <article class="mainContent">
-        <div class="jumbotron large mainContent">
-          <div class="container">
-            <h1 class="uppercase title"><span class="bluetext"> Welcome to the Booth</span></h1>
-            <p class="subtitle">
-              The Booth is the most trusted barbershop in Crawley. We are committed to providing a service that is
-              precise in execution.
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#featured" class="nav__link">Featured</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Products</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#new" class="nav__link">Services</a>
+                        </li>
+                        
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x' ></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class='bx bx-grid-alt' ></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <div class="home__img-bg">
+                        <img src="Images/wallpaper1.jpg" alt="" class="home__img">
+                    </div>
+    
+                    <div class="home__social">
+                        <a href="404.html" target="_blank" class="home__social-link">
+                            Facebook
+                        </a>
+                        <a href="404.html" target="_blank" class="home__social-link">
+                            Twitter
+                        </a>
+                        <a href="404.html" target="_blank" class="home__social-link">
+                            Instagram
+                        </a>
+                    </div>
+    
+                    <div class="home__data">
+                        <h1 class="home__title">WELCOME<br>TO THE BOOTH</h1>
+                        <p class="home__description">
+                            Coming Jan 2022
+                        </p>
+                        <span class="home__price">ADD SOMETHING</span>
+
+                        <div class="home__btns">
+                            <a href="404.html" class="button button--gray button--small">
+                                BOOK HERE
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== FEATURED ====================-->
+            <section class="featured section container" id="featured">
+                <h2 class="section__title">
+                    Featured
+                </h2>
+
+                <div class="featured__container grid">
+                    <article class="featured__card">
+
+
+                        <img src="Images/fadegame1.jpg" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">TEXT</h3>
+                        </div>
+
+                        <button class="button featured__button">INSTAGRAM</button>
+                    </article>
+
+                    <article class="featured__card">
+
+                        <img src="Images/fadegame2.jpg" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">TEXT</h3>
+                        </div>
+
+                        <button class="button featured__button">INSTAGRAM</button>
+                    </article>
+
+                    <article class="featured__card">
+                        <img src="Images/fadegame3.jpg" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">TEXT</h3>
+                        </div>
+
+                        <button class="button featured__button">INSTAGRAM</button>
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== STORY ====================-->
+            <section class="story section container">
+                <div class="story__container grid">
+                    <div class="story__data">
+                        <h2 class="section__title story__section-title">
+                            Our Story
+                        </h2>
+    
+                        <h1 class="story__title">
+                            About Us
+                        </h1>
+    
+                        <p class="story__description">
+                            Add A DESC Here!
+                        </p>
+
+                    </div>
+
+                    <div class="story__images">
+                        <img src="Images/wallpaper.jpg" alt="" class="story__img">
+                        <div class="story__square"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PRODUCTS ====================-->
+            <section class="products section container" id="products">
+                <h2 class="section__title">
+                    Products
+                </h2>
+
+                <div class="products__container grid">
+                    <article class="products__card">
+                        <img src="Images/fibrewax.jpg" alt="" class="products__img">
+
+                        <h3 class="products__title">Spirit rose</h3>
+                        <span class="products__price">£1500</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                      <img src="Images/fibrewax.jpg" alt="" class="products__img">
+
+                        <h3 class="products__title">Khaki pilot</h3>
+                        <span class="products__price">£1350</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                      <img src="Images/fibrewax.jpg" alt="" class="products__img">
+
+                        <h3 class="products__title">Jubilee black</h3>
+                        <span class="products__price">£870</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                      <img src="Images/fibrewax.jpg" alt="" class="products__img">
+
+                        <h3 class="products__title">Fosil me3</h3>
+                        <span class="products__price">£650</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                      <img src="Images/cuthroatgold.jpg" alt="" class="products__img">
+
+                        <h3 class="products__title">Duchen</h3>
+                        <span class="products__price">£950</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                      <img src="Images/cutthroatblack.jpg" alt="" class="products__img">
+
+                        <h3 class="products__title">Duchen</h3>
+                        <span class="products__price">£950</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+                    
+                    
+                </div>
+            </section>
+
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section container">
+                <div class="testimonial__container grid">
+                    <div class="swiper testimonial-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class='bx bxs-quote-alt-left' ></i>
+                                </div>
+                                <p class="testimonial__description">
+                                  My experience at The Booth was very warming. I felt welcome and comfortable in an unfamiliar environment due to the professionalism of the venue and workers. Being skeptical with changing barbers at first I’ve definitely gained confidence in a new one after being well cut by Nabeel - I’ll definitely be returning for their services.
+                                </p>
+                                <h3 class="testimonial__date">March 27. 2021</h3>
+        
+                                <div class="testimonial__perfil">
+                                    <img src="assets/img/testimonial1.jpg" alt="" class="testimonial__perfil-img">
+        
+                                    <div class="testimonial__perfil-data">
+                                        <span class="testimonial__perfil-name">Lee Doe</span>
+                                        <span class="testimonial__perfil-detail">Director of a company</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class='bx bxs-quote-alt-left' ></i>
+                                </div>
+                                <p class="testimonial__description">
+                                  My experience at The Booth was very warming. I felt welcome and comfortable in an unfamiliar environment due to the professionalism of the venue and workers. Being skeptical with changing barbers at first I’ve definitely gained confidence in a new one after being well cut by Nabeel - I’ll definitely be returning for their services.
+                                </p>
+                                <h3 class="testimonial__date">March 27. 2021</h3>
+        
+                                <div class="testimonial__perfil">
+                                    <img src="assets/img/testimonial2.jpg" alt="" class="testimonial__perfil-img">
+        
+                                    <div class="testimonial__perfil-data">
+                                        <span class="testimonial__perfil-name">Samantha Mey</span>
+                                        <span class="testimonial__perfil-detail">Director of a company</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class='bx bxs-quote-alt-left' ></i>
+                                </div>
+                                <p class="testimonial__description">
+                                  My experience at The Booth was very warming. I felt welcome and comfortable in an unfamiliar environment due to the professionalism of the venue and workers. Being skeptical with changing barbers at first I’ve definitely gained confidence in a new one after being well cut by Nabeel - I’ll definitely be returning for their services.
+                                </p>
+                                <h3 class="testimonial__date">March 27. 2021</h3>
+        
+                                <div class="testimonial__perfil">
+                                    <img src="assets/img/testimonial3.jpg" alt="" class="testimonial__perfil-img">
+        
+                                    <div class="testimonial__perfil-data">
+                                        <span class="testimonial__perfil-name">Raul Zaman</span>
+                                        <span class="testimonial__perfil-detail">Director of a company</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-button-next">
+                            <i class='bx bx-right-arrow-alt' ></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class='bx bx-left-arrow-alt' ></i>
+                        </div>
+                    </div>
+
+                    <div class="testimonial__images">
+                        <div class="testimonial__square"></div>
+                        <img src="Images/fadegame9.jpg" alt="" class="testimonial__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== NEW ====================-->
+            <section class="new section container" id="new">
+                <h2 class="section__title">
+                    New Arrivals
+                    <br>
+                    <br>
+                    Swipe To View Our Services
+                </h2>
+                
+                
+                <div class="new__container">
+                    <div class="swiper new-swiper">
+                        <div class="swiper-wrapper">
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">New</span>
+        
+                                <img src="Images/fadegame5.jpg" alt="" class="new__img">
+        
+                                <div class="new__data">
+                                    <h3 class="new__title">Longines rose</h3>
+                                    <span class="new__price">£980</span>
+                                </div>
+        
+                                <button class="button new__button">ADD TO CART</button>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">New</span>
+        
+                                <img src="Images/fadegame5.jpg" alt="" class="new__img">
+        
+                                <div class="new__data">
+                                    <h3 class="new__title">Jazzmaster</h3>
+                                    <span class="new__price">£1150</span>
+                                </div>
+        
+                                <button class="button new__button">ADD TO CART</button>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">New</span>
+        
+                                <img src="Images/fadegame5.jpg" alt="" class="new__img">
+        
+                                <div class="new__data">
+                                    <h3 class="new__title">Dreyfuss gold</h3>
+                                    <span class="new__price">£750</span>
+                                </div>
+        
+                                <button class="button new__button">ADD TO CART</button>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">New</span>
+        
+                                <img src="Images/fadegame5.jpg" alt="" class="new__img">
+        
+                                <div class="new__data">
+                                    <h3 class="new__title">Portuguese rose</h3>
+                                    <span class="new__price">£1590</span>
+                                </div>
+        
+                                <button class="button new__button">ADD TO CART</button>
+                            </article>                       
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== NEWSLETTER ====================-->
+            <section class="newsletter section container">
+                <div class="newsletter__bg grid">
+                    <div>
+                        <h2 class="newsletter__title">Would Like To Write A<br>Review ?</h2>
+                        <p class="newsletter__description">
+                            Feel Free To Write a Review
+                        </p>
+                    </div>
+
+                    <form action="" class="newsletter__subscribe">
+                        <input type="email" placeholder="Enter your email" class="newsletter__input">
+                        <button class="button">
+                            SUBSCRIBE
+                        </button>
+                    </form>
+                </div>
+            </section>
+
+            <section class="story section container">
+              <div class="story__container grid">
+                  <div class="story__data">
+                      <h2 class="section__title story__section-title">
+                          Opening Times
+                      </h2>
+  
+                      <div class="hours-box">
+                        <div class="hours">
+                          <div>
+                            <ul>
+                              <li>Monday</li>
+                              <li>Tuesday</li>
+                              <li>Wednesday</li>
+                              <li>Thursday</li>
+                              <li>Friday</li>
+                              <li>Saturday</li>
+                              <li>Sunday</li>
+                            </ul>
+                          </div>
+                          <div>
+                            <ul>
+                              <li><span></span></li>
+                              <li>10am-7pm</li>
+                              <li>10am-7pm</li>
+                              <li>10am-7pm</li>
+                              <li>10am-7pm</li>
+                              <li>10am-7pm</li>
+                              <li>10am-7pm</li>
+                              <li>Closed</li>
+                            </ul>
+                          </div>
+
+                  </div>
+              </div>
+          </section>  
+
+        </main>
+
+
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">Where We Are</h3>
+
+                    <ul class="footer__list">
+                        <li>9 Grand Parade</li>
+                        <li>Crawley</li>
+                        <li>RH10 1BU</li>
+                    </ul>
+
+                </div>
+                <div class="footer__content">
+                    <h3 class="footer__title">About Us</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="404.html" class="footer__link">Support Center</a>
+                        </li>
+                        <li>
+                            <a href="404.html" class="footer__link">Customer Support</a>
+                        </li>
+                        <li>
+                            <a href="404.html" class="footer__link">About Us</a>
+                        </li>
+                        <li>
+                            <a href="404.html" class="footer__link">Copy Right</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">SiteMap</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="404.html" class="footer__link">Home</a>
+                        </li>
+                        <li>
+                            <a href="404.html" class="footer__link">Featured</a>
+                        </li>
+                        <li>
+                            <a href="404.html" class="footer__link">Products</a>
+                        </li>
+                        <li>
+                            <a href="404.html" class="footer__link">Services</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Social</h3>
+
+                    <ul class="footer__social">
+                        <a href="404.html" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+
+                        <a href="404.html" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-twitter' ></i>
+                        </a>
+
+                        <a href="404.html" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-instagram' ></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <span class="footer__copy">
               <br>
-              Read more in our about us page.
+              Produced By FLUORESCENT IDEAS
               <br>
-            </p>
+              Created By Raheem
+              <br>
+              &#169; 2022. All rights reserved
+              <br>
+              Version 2.0.1
+            </span>
+        </footer>
 
-            <a class="button primary uppercase" href="https://thebooth.setmore.com/" target="_blank">Book Here</a>
-          </div>
-        </div>
-        <div class="container">
-          <content>
-            <h1 class="open">We Are Now Open</h1>
-          </content>
-          <!-- <div id="countdown">
-            <ul class="timer1">
-              <li class="timer"><span id="days"></span>days</li>
-              <li class="timer"><span id="hours"></span>Hours</li>
-              <li class="timer"><span id="minutes"></span>Minutes</li>
-              <li class="timer"><span id="seconds"></span>Seconds</li>
-            </ul>
-          </div> -->
-          <!-- <p class="date">April 12th 2021</p> -->
-          <p class="date">Book Now To Secure Your Spot</p>
-          <p class="date2">Main Link Is Currently Down, We Are Working As Fast As We Can To Fix This Issue</p>
-        </div>
-      </article>
-  </div>
-  <section class="testimonial text-center">
-    <div class="container">
-      <div class="heading white-heading">
-        Reviews From Clients
-      </div>
-      <div id="testimonial4"
-        class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x"
-        data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
-        <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active">
-            <div class="testimonial4_slide">
-              <p>I have been getting my haircut at the booth for around 4 years now. After a number of bad experiences,
-                swapping from barber to barber regularly, I finally found someone that is consistent, reliable and
-                extremely talented. Not only do they take pride in their work but The Booth are always providing great
-                customer service and for these reasons, I’ve never looked elsewhere.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="testimonial4_slide">
-              <p>Before going to the booth I was constantly unhappy with the haircuts I was getting from random barbers.
-                When I went to the booth, everything changed! I know feel fresh and confident every time I get a
-                haircut! Couldn’t wish for a better service </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="testimonial4_slide">
-              <p>Had my haircut from every barber at TheBooth and never been disappointed. Great vibe, friendly barbers
-                each with their own unique style. I’ve personally travelled over 200 miles for a haircut from here,
-                would highly recommend to anyone!</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="testimonial4_slide">
-              <p>The Booth is one of the best, if not the best barber shop in west Sussex. The barbers are extremely
-                professional and experience with all types of hair.
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="testimonial4_slide">
-              <p>My experience at The Booth was very warming. I felt welcome and comfortable in an unfamiliar
-                environment due to the professionalism of the venue and workers. Being skeptical with changing barbers
-                at first I’ve definitely gained confidence in a new one after being well cut by Nabeel - I’ll definitely
-                be returning for their services.
-              </p>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class='bx bx-up-arrow-alt scrollup__icon' ></i>
         </a>
-        <a class="carousel-control-next" href="#testimonial4" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
-      </div>
-    </div>
-    <a class="button primary uppercase" href="https://thebooth.setmore.com/reviews" target="_blank">Add Your Review Here</a>
-    </main>
-    <footer>
-      <nav class="footer-inner">
-        <section class="footer-item">
-          <h2>This Website was created by <br>Raheem Shah</h2>
-          <a href="https://fluorescentideasltd.com/" target="_blank">Contact Raheem</a><br>
-        </section>
-        <section class="footer-item">
-          <h3>Explore</h3>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="opening.html">Opening times</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="images.html">Portfolio</a></li>
-            <li><a href="store.html">Store</a></li>
-          </ul>
-        </section>
-        <section class="footer-item">
-          <h3>Visit</h3>
-          <a href="https://goo.gl/maps/JEJDCuk19VAWLWgr9" target="_blank">
-            <p1>9,Grand Parade,</p1>
-            <br>
-            <p1>Crawley</p1>
-            <br>
-            <p1>RH10 1BU</p1>
-          </a>
-        </section>
-        <section class="footer-item">
-          <h3>Follow</h3>
-          <ul>
-            <li><a href="https://www.instagram.com/raheemshah2809" target="_blank">Instagram</a></li>
-            <li><a href="https://github.com/Raheemshah2809" target="_blank">Github</a></li>
-            <!-- <li><a href="https://www.linkedin.com/in/raheem-shah-776ab1166/" target="_blank">LinkedIn</a></li> -->
-          </ul>
-        </section>
 
-        <section class="footer-item">
-          <h3>Website Version Number:</h3>
-          <ul>
-            <li><a href="https://github.com/Raheemshah2809/Booth/releases/tag/v1.4.1.12.2020" _blank">1.4</a></li>
-            <h3>App Version Number:</h3>
-            <ul>
-              <li><a href="https://github.com/Raheemshah2809/Booth/releases/tag/v1.4.1.12.2020" _blank">1.4.2</a></li>
-            </ul>
-        </section>
-        <section class="footer-item">
-          <a href="opening.html" class="footer-button">Next: Opening times</a>
-        </section>
-      </nav>
-    </footer>
-    <script>
-      (function () {
-        const second = 1000,
-          minute = second * 60,
-          hour = minute * 60,
-          day = hour * 24;
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
 
-        let birthday = "Apr 12, 2021 10:00:00",
-          countDown = new Date(birthday).getTime(),
-          x = setInterval(function () {
-
-            let now = new Date().getTime(),
-              distance = countDown - now;
-
-            document.getElementById("days").innerText = Math.floor(distance / (day)),
-              document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
-              document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
-              document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
-
-            //do something later when date is reached
-            if (distance < 0) {
-              let headline = document.getElementById("headline"),
-                countdown = document.getElementById("countdown"),
-                content = document.getElementById("content");
-              clearInterval(x);
-            }
-            //seconds
-          }, 0)
-      }());
-    </script>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-</body>
-
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
