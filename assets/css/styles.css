@@ -9,7 +9,7 @@
   --first-color: hsl(194, 90%, 32%);
   --button-color: hsl(0, 0%, 17%);
   --button-color-alt: hsl(0, 0%, 21%);
-  --title-color: hsl(0, 0%, 15%);
+  --title-color: hsl(0, 0%, 100%);
   --text-color: hsl(0, 0%, 35%);
   --text-color-light: hsl(0, 0%, 55%);
   --body-color: hsl(0, 0%, 99%);
@@ -138,7 +138,7 @@ body.dark-theme {
 .dark-theme .nav__toggle,
 .dark-theme .nav__shop,
 .dark-theme .button--gray {
-  color: hsl(0, 0%, 15%);
+  color: hsl(0, 0%, 100%);
 }
 
 .dark-theme .scroll-header {
@@ -206,6 +206,7 @@ body.dark-theme {
   z-index: var(--z-fixed);
   /*For animation dark mode*/
   transition: .4s;
+  background-color: hsl(0deg 0% 0%);
 }
 
 .nav {
@@ -213,6 +214,8 @@ body.dark-theme {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: auto;
+  max-width: 77%;
 }
 
 .nav__logo, 
@@ -293,7 +296,7 @@ body.dark-theme {
 
 /* Change background header */
 .scroll-header {
-  background-color: var(--body-color);
+  background-color: hsl(0deg 0% 0%);
   box-shadow: 0 1px 4px hsla(0, 4%, 15%, .10);
 }
 
