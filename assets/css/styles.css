@@ -6,7 +6,7 @@
   --header-height: 3.5rem;
 
   /*========== Colors ==========*/
-  --first-color: hsl(49, 91%, 40%);
+  --first-color: hsl(194, 90%, 32%);
   --button-color: hsl(0, 0%, 17%);
   --button-color-alt: hsl(0, 0%, 21%);
   --title-color: hsl(0, 0%, 15%);
@@ -112,13 +112,13 @@ button {
 /*=============== THEME ===============*/
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
-  --first-color: hsl(49, 91%, 40%);
+  --first-color: hsl(194, 90%, 32%);
   --button-color: hsl(0, 0%, 24%);
   --button-color-alt: hsl(0, 0%, 28%);
   --title-color: hsl(0, 0%, 95%);
   --text-color: hsl(0, 0%, 75%);
-  --body-color: hsl(0, 0%, 12%);
-  --container-color: hsl(0, 0%, 16%);
+  --body-color: hsl(0, 0%, 0%);
+  --container-color: hsl(0, 0%, 9%);
   --border-color: hsl(0, 0%, 20%);
   
 }
@@ -683,7 +683,6 @@ body.dark-theme {
 }
 
 h1 {
-  margin: 30px;
   font-size: 1.2em;
 }
 
