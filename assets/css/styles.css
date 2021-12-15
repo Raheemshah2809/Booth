@@ -318,7 +318,7 @@ body.dark-theme {
 }
 
 .home__img-bg {
-  background-color: var(--first-color);
+  /* background-color: var(--first-color); */
   width: 258px;
   height: 430px;
   padding-bottom: 2rem;
@@ -327,6 +327,7 @@ body.dark-theme {
   align-items: flex-end;
   justify-self: flex-end;
   transform: translateX(1.5rem);
+  margin-top: 10px;
 }
 
 .home__social {
