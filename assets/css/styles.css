@@ -138,7 +138,7 @@ body.dark-theme {
 .dark-theme .nav__toggle,
 .dark-theme .nav__shop,
 .dark-theme .button--gray {
-  color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 0%);
 }
 
 .dark-theme .scroll-header {
@@ -148,7 +148,7 @@ body.dark-theme {
 .scroll-header .change-theme,
 .scroll-header .nav__toggle,
 .scroll-header .nav__shop {
-  color: var(--title-color);
+ 
 }
 
 .dark-theme::-webkit-scrollbar {
@@ -206,7 +206,7 @@ body.dark-theme {
   z-index: var(--z-fixed);
   /*For animation dark mode*/
   transition: .4s;
-  background-color: hsl(0deg 0% 0%);
+  background-color: rgb(255, 255, 255);
 }
 
 .nav {
@@ -215,7 +215,9 @@ body.dark-theme {
   justify-content: space-between;
   align-items: center;
   max-width: 77%;
-  object-fit: cover;
+  object-fit: contain;
+  margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .nav__logo, 
@@ -296,7 +298,7 @@ body.dark-theme {
 
 /* Change background header */
 .scroll-header {
-  background-color: hsl(0deg 0% 0%);
+  background-color: rgb(255, 255, 255);
   box-shadow: 0 1px 4px hsla(0, 4%, 15%, .10);
 }
 
@@ -330,10 +332,16 @@ body.dark-theme {
 .home__social {
   position: absolute;
   top: 35%;
-  left: -5rem;
-  transform: rotate(-90deg);
+  left: -1rem;
+  transform: rotate(315deg);
   display: flex;
   column-gap: 1rem;
+  font-size: 1.5em;
+}
+
+.home__social a {
+  color: var(--title-color);
+  text-decoration: none;
 }
 
 .home__social-link {
