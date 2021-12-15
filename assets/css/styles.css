@@ -6,7 +6,7 @@
   --header-height: 3.5rem;
 
   /*========== Colors ==========*/
-  --first-color: hsl(200, 2%, 38%);
+  --first-color: hsl(180, 0%, 53%);
   --button-color: hsl(0, 0%, 17%);
   --button-color-alt: hsl(0, 0%, 21%);
   --title-color: hsl(200, 2%, 38%);
@@ -214,8 +214,8 @@ body.dark-theme {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: auto;
   max-width: 77%;
+  object-fit: cover;
 }
 
 .nav__logo, 
@@ -779,7 +779,7 @@ hr {
 }
 
 .newsletter__description {
-  color: hsl(0, 0%, 35%);
+  color: hsl(0, 0%, 97%);
 }
 
 .newsletter__subscribe {
