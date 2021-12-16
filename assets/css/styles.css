@@ -84,7 +84,8 @@ body {
   /*For animation dark mode*/
   transition: 1s;
   border-left: 0.5rem solid black;
-  border-right: 0.5rem solid black
+  border-right: 0.5rem solid black;
+  border-top: 0.5rem solid black;
 }
 
 h1,
@@ -210,6 +211,7 @@ body.dark-theme {
   /*For animation dark mode*/
   transition: .4s;
   background-color: rgb(255, 255, 255);
+  border: 0.5rem solid black;
 }
 
 .nav {
