@@ -246,8 +246,10 @@ body.dark-theme {
 
 .nav__btns {
   display: flex;
-  align-items: center;
   column-gap: 1rem;
+  right: 10px;
+  position: absolute;
+
 }
 
 .nav__toggle,
