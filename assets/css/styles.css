@@ -247,7 +247,7 @@ body.dark-theme {
 .nav__btns {
   display: flex;
   column-gap: 1rem;
-  right: 10px;
+  right: 31px;
   position: absolute;
 
 }
