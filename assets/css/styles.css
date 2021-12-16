@@ -1291,3 +1291,16 @@ hr {
   }
 }
 
+.label3{
+  position: relative;
+  top: 25px;
+  left: 90px;
+  font-size: 10px;
+}
+
+.label4{
+  position: relative;
+    top: 34px;
+    left: 39px;
+    font-size: 10px;
+}
