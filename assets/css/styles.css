@@ -1304,3 +1304,8 @@ hr {
     left: 39px;
     font-size: 10px;
 }
+
+.linkf{
+  text-decoration: none;
+  color: var(--text-color-light);
+}
