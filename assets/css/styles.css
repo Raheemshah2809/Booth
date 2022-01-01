@@ -6,7 +6,7 @@
   --header-height: 3.5rem;
 
   /*========== Colors ==========*/
-  --first-color: hsl(180, 0%, 53%);
+  --first-color: rgb(120, 120, 120);
   --button-color: hsl(0, 0%, 17%);
   --button-color-alt: hsl(0, 0%, 21%);
   --title-color: hsl(0, 0%, 0%);
@@ -775,11 +775,11 @@ hr {
 }
 
 .new__card:hover .new__title {
-  color: hsl(0, 0%, 15%);
+  color: hsl(0, 0%, 100%);
 }
 
 .new__card:hover .new__price {
-  color: hsl(0, 0%, 15%);
+  color: hsl(0, 0%, 100%);
   margin-bottom: var(--mb-1-5);
 }
 
