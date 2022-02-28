@@ -39,8 +39,8 @@ Added Cookies are being used and Google Analytics are also being used. (Working 
 
 Version 1.9 - 2.0 (Pre-Alpha) 
 Move the site AWS with a working PHP server which brings a working contact form and a lot more possibilities, this is currently in the works and not be released anytime soon.  <del> Expected Summer 2022-2023, Delayed By 12-24 Months Due to Ongoing Projects, Priority Low</del>
-<del>Now Expected Summer 2023, Version 2.0 of the site may be cancelled. Update in 2023. </del>
-Version 1.9 - 2.0 Now Cancelled!
+<del>Now Expected Summer 2023, Version 2.0 of the site may be cancelled. Update in 2023. </del> <br>
+Version 1.9 - 2.0 Now Cancelled! (Updated February 2022)
 
 This Changelog Was Last Updated In February 2022 
 Version 1.5-1.6.X Will Be the Last Major Updates To The Site. (EOL - December 2022) 
