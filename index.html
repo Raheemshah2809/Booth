@@ -63,15 +63,6 @@
           <content>
             <h1 class="open">We Are Now Open</h1>
           </content>
-          <!-- <div id="countdown">
-            <ul class="timer1">
-              <li class="timer"><span id="days"></span>days</li>
-              <li class="timer"><span id="hours"></span>Hours</li>
-              <li class="timer"><span id="minutes"></span>Minutes</li>
-              <li class="timer"><span id="seconds"></span>Seconds</li>
-            </ul>
-          </div> -->
-          <!-- <p class="date">April 12th 2021</p> -->
           <p class="date">Book Now To Secure Your Spot</p>
         </div>
       </article>
@@ -172,48 +163,21 @@
         <section class="footer-item">
           <h3>Website Version Number:</h3>
           <ul>
-            <li><a href="https://github.com/Raheemshah2809/Booth/releases/tag/v1.4.1.12.2020" _blank">1.4</a></li>
+            <li><a href="https://github.com/Raheemshah2809/Booth/releases/tag/v1.4.1.12.2020" _blank">1.4.1</a></li>
             <h3>App Version Number:</h3>
             <ul>
-              <li><a href="https://github.com/Raheemshah2809/Booth/releases/tag/v1.4.1.12.2020" _blank">1.4.2</a></li>
+              <li><a href="https://github.com/Raheemshah2809/Booth/releases/tag/v1.4.1.12.2020" _blank">1.4.3</a></li>
             </ul>
         </section>
         <section class="footer-item">
           <a href="opening.html" class="footer-button">Next: Opening times</a>
         </section>
       </nav>
+      <h3>© 2022 Raheem Shah   . All Rights Reserved. </h3>
+      <h3> Produced By and Hosted by <br>© 2022 FLUORESCENT IDEAS. <br> All Rights Reserved. </h3>
+      <h3> Last Updated: <br> April 2022 </h3>
     </footer>
-    <script>
-      (function () {
-        const second = 1000,
-          minute = second * 60,
-          hour = minute * 60,
-          day = hour * 24;
-
-        let birthday = "Apr 12, 2021 10:00:00",
-          countDown = new Date(birthday).getTime(),
-          x = setInterval(function () {
-
-            let now = new Date().getTime(),
-              distance = countDown - now;
-
-            document.getElementById("days").innerText = Math.floor(distance / (day)),
-              document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
-              document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
-              document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
-
-            //do something later when date is reached
-            if (distance < 0) {
-              let headline = document.getElementById("headline"),
-                countdown = document.getElementById("countdown"),
-                content = document.getElementById("content");
-              clearInterval(x);
-            }
-            //seconds
-          }, 0)
-      }());
-    </script>
-
+  
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>

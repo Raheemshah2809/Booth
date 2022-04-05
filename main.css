@@ -408,15 +408,16 @@ a:hover {
   display: none;
 }
 
-.footer-inner:after {
-  content: "© 2021 Raheem Shah  . All Rights Reserved.";
+/* .footer-inner:after {
+  content: "© 2022 Raheem Shah   . All Rights Reserved. ";
   font-weight: 300;
   letter-spacing: 0.03em;
   font-size: 13px;
   color: #d1d1d1;
   position: absolute;
   top: 260px;
-}
+} */
+
 
 @media (max-width: 1024px) {
 
@@ -487,6 +488,7 @@ a:hover {
   position: relative;
   width: 100%;
   display: inline-block;
+  background: black;
 
 }
 
