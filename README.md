@@ -4,28 +4,15 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/Raheemshah2809/booth)
 ![GitHub Release Date](https://img.shields.io/github/release-date/Raheemshah2809/Booth)
 
- Client Website 
+Client Website 
+ 
+Important! - Starting January 1st 2024, The Booth Website is discontinued. You Will Not Be Able To Book. This Site Will Go Into An Archive State
 
 
 Version 1.4 Live. 
 What's new! 
 
 Finally, the website is now live and in a finished state. Here are some changes from the v1.3 (not PR) 
-
-Brand new Contact page, Revamped with cards.
-Removed Footer due to a bug that needs to be fixed with it. 
-Navbar not be added to the full website due to a decision and testing I thought it wasn't correct. 
-Logo and Nav menu tweaked and made a lot better.
-Removed Google form and connected clients page instead.
-Brand new Testimonials bar which slides. 
-Changed intro jumbotron to the clients liking.
-Added a new About us Page which has the longer version of the intro.
-Updated Opening Times page with official times and additional text. 
-The portfolio page got a major revamp added a new card style and the hover effect removed the old list style. 
-Updated Opening times and did some minor CSS work.
-Updated footer with a correct version number.
-Added a new URL to which the site can be accessed to.
-Theboothuk.com & nabzcutz.com
 
 From this version forward, updates will now be weekly rather than daily. due to ongoing projects elsewhere, If something is urgent this will be put first. Other than that minor tweaks or changes will be weekly every Sunday-Monday.
 
@@ -45,3 +32,5 @@ Version 1.9 - 2.0 Now Cancelled! (Updated February 2022)
 This Changelog Was Last Updated In February 2022 
 Version 1.5-1.6.X Will Be the Last Major Updates To The Site. (EOL - December 2022) 
 Only SSL Certificate Will be renewed every 90 days. 
+
+
