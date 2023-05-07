@@ -165,7 +165,7 @@ html {
     transition: 0.6s;
     width: 70%;
     left: 319px;
-    bottom: 43px;
+    bottom: -14px;
   }
 
   header.sticky .logo,
@@ -174,13 +174,16 @@ html {
     color: grey;
   }
 
+
   header ul {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
+    left: 95px;
+    top: 65px;
+}
+  
   header ul li {
     position: relative;
     list-style: none;
@@ -213,6 +216,16 @@ html {
     z-index: 10000;
   }
 
+  header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 95px;
+    top: 30px;
+}
+  
+
   header .logo {
     position: relative;
     font-weight: 700;
@@ -224,7 +237,7 @@ html {
     transition: 0.6s;
     width: 114%;
     left: -9px;
-    bottom: 10px;
+    bottom: -35px;
   }
 }
 
@@ -234,15 +247,7 @@ header.sticky ul li a {
   color: grey;
 }
 
-header ul {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  left: 95px;
-  top: 12px;
-}
-}
+
 
 header ul li {
   position: relative;
@@ -447,6 +452,7 @@ a:hover {
 
   .footer-item:nth-of-type(2) {
     grid-area: explore;
+    text-align: center;
   }
 
   .footer-item:nth-of-type(3) {
@@ -957,4 +963,34 @@ li span {
 
 .open {
   text-align: center;
+}
+
+
+.announcement-bar {
+  background-color: #D97706;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.announcement-bar__close {
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  line-height: 1;
+}
+
+.announcement-bar__message {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
 }
