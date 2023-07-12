@@ -1,0 +1,181 @@
+body {
+  background: #f0f0f0;
+  background: linear-gradient(#e6e6e6, #f0f0f0);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.Holder {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Title {
+  color: #323232;
+  margin: 5vh auto auto auto;
+  text-align: center;
+  font-weight: 100;
+  font-size: 16pt;
+  text-shadow: 0 1px 0 white;
+}
+
+.Loader {
+  position: relative;
+  margin: auto auto 5vh auto;
+  width: 300px;
+  height: 120px;
+  background: #3c3c3c;
+  border-radius: 6px;
+  border: 1px solid #141414;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 0 rgba(255, 255, 255, 0.3), inset 3px 10px 15px #505050, 0 20px 15px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 8pt;
+  color: #6e6e6e;
+  text-shadow: 0 1px 0 #282828;
+}
+.Loader .Loader__light {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  border: 1px solid #14143c;
+  -webkit-animation: blink 1s alternate infinite;
+          animation: blink 1s alternate infinite;
+}
+.Loader .Loader__drives {
+  position: absolute;
+  top: 30px;
+  left: 46px;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.Loader .Loader__drives .Loader__drive {
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid #141414;
+  box-sizing: border-box;
+  background: #464646;
+  height: 48%;
+  width: 32%;
+  margin-bottom: 4px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), inset 0 2px 4px #505050;
+}
+.Loader .Loader__drives .Loader__drive:after, .Loader .Loader__drives .Loader__drive:before {
+  display: block;
+  content: "";
+  position: absolute;
+  right: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  -webkit-animation: blink 1s alternate infinite;
+          animation: blink 1s alternate infinite;
+}
+.Loader .Loader__drives .Loader__drive:after {
+  top: 6px;
+}
+.Loader .Loader__drives .Loader__drive:before {
+  bottom: 6px;
+}
+.Loader .Loader__drives .Loader__drive:nth-child(1):before {
+  -webkit-animation-duration: 0.252s;
+          animation-duration: 0.252s;
+  -webkit-animation-delay: 1.014s;
+          animation-delay: 1.014s;
+}
+.Loader .Loader__drives .Loader__drive:nth-child(1):after {
+  -webkit-animation-duration: 0.692s;
+          animation-duration: 0.692s;
+  -webkit-animation-delay: 1.204s;
+          animation-delay: 1.204s;
+}
+.Loader .Loader__drives .Loader__drive:nth-child(2):before {
+  -webkit-animation-duration: 0.162s;
+          animation-duration: 0.162s;
+  -webkit-animation-delay: 1.234s;
+          animation-delay: 1.234s;
+}
+.Loader .Loader__drives .Loader__drive:nth-child(2):after {
+  -webkit-animation-duration: 0.362s;
+          animation-duration: 0.362s;
+  -webkit-animation-delay: 0.854s;
+          animation-delay: 0.854s;
+}
+.Loader .Loader__drives .Loader__drive:nth-child(3):before {
+  -webkit-animation-duration: 0.832s;
+          animation-duration: 0.832s;
+  -webkit-animation-delay: 0.484s;
+          animation-delay: 0.484s;
+}
+.Loader .Loader__drives .Loader__drive:nth-child(3):after {
+  -webkit-animation-duration: 0.122s;
+          animation-duration: 0.122s;
+  -webkit-animation-delay: 1.054s;
+          animation-delay: 1.054s;
+}
+.Loader .Loader__drives .Loader__drive:nth-child(4):before {
+  -webkit-animation-duration: 0.882s;
+          animation-duration: 0.882s;
+  -webkit-animation-delay: 1.074s;
+          animation-delay: 1.074s;
+}
+.Loader .Loader__drives .Loader__drive:nth-child(4):after {
+  -webkit-animation-duration: 1.002s;
+          animation-duration: 1.002s;
+  -webkit-animation-delay: 0.324s;
+          animation-delay: 0.324s;
+}
+.Loader .Loader__drives .Loader__drive:nth-child(5):before {
+  -webkit-animation-duration: 0.192s;
+          animation-duration: 0.192s;
+  -webkit-animation-delay: 0.324s;
+          animation-delay: 0.324s;
+}
+.Loader .Loader__drives .Loader__drive:nth-child(5):after {
+  -webkit-animation-duration: 1.062s;
+          animation-duration: 1.062s;
+  -webkit-animation-delay: 0.954s;
+          animation-delay: 0.954s;
+}
+.Loader .Loader__drives .Loader__drive:nth-child(6):before {
+  -webkit-animation-duration: 0.972s;
+          animation-duration: 0.972s;
+  -webkit-animation-delay: 0.604s;
+          animation-delay: 0.604s;
+}
+.Loader .Loader__drives .Loader__drive:nth-child(6):after {
+  -webkit-animation-duration: 0.192s;
+          animation-duration: 0.192s;
+  -webkit-animation-delay: 1.184s;
+          animation-delay: 1.184s;
+}
+
+@-webkit-keyframes blink {
+  from {
+    background: #646487;
+    box-shadow: 0 0 0 transparent;
+  }
+  to {
+    background: #a0a0ff;
+    box-shadow: 0 0 15px #a0a0ff;
+  }
+}
+
+@keyframes blink {
+  from {
+    background: #646487;
+    box-shadow: 0 0 0 transparent;
+  }
+  to {
+    background: #a0a0ff;
+    box-shadow: 0 0 15px #a0a0ff;
+  }
+}
